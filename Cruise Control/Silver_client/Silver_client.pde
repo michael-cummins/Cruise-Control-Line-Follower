@@ -2,7 +2,7 @@ import processing.net.*;
 import controlP5.*;
 
 //set up wifi
-Client myClient = new Client(this,"192.168.1.5",56676);
+Client myClient = new Client(this,"<enter ip adress>",56676);
 
 int currentTime, prevTime;
 
